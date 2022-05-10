@@ -1,0 +1,118 @@
+@import url(./global.css);
+
+#room header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-right: 16rem;
+}
+
+/*=======Botões======*/
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: .8rem;
+}
+
+.button, .buttonsec {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.button {
+  padding: 1.3rem 3.2em;
+}
+
+.buttonsec {
+  padding: 1.3rem 1.6rem;
+}
+
+/*=======Formulário de Questão======*/
+#section-form {
+  padding-inline: 16rem;
+  margin-bottom: 1.6rem;
+}
+
+#section-form h2 {
+  margin-bottom: 2.4rem;
+}
+
+#section-form form {
+  border: .2rem solid var(--grey-blue);
+  padding: 1.6rem;
+  border-radius: 0  .8rem .8rem .8rem;
+}
+
+#section-form textarea {
+  resize: none;
+  background: none;
+  width: 100%;
+  outline: none;
+  height: 6.6rem;
+}
+
+#section-form textarea::placeholder {
+  color: var(--grey-blue)
+}
+
+#section-form footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#section-form footer > div {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  color: var(--grey-blue);
+  gap: .933rem;
+}
+
+#section-form button {
+  padding: .8rem 2.4rem;
+}
+
+/*=======Perguntas======*/
+#questions {
+  display: grid;
+  padding-inline: 16rem;
+}
+
+#questions .question {
+  height: 13.6rem;
+  background-color: var(--light-blue);
+  border-radius: 0  .8rem .8rem .8rem;
+  
+}
+
+#questions .question-content {
+  display: grid;
+  grid-template-rows: auto 25%;
+  grid-template-columns: auto 10rem;
+    grid-template-areas: 
+    'A B'
+    'C D';
+}
+
+#questions .col-a {
+  grid-area: A;
+}
+
+#questions .col-b {
+  grid-area: B;
+}
+
+#questions .col-c {
+  grid-area: C;
+}
+
+#questions .col-d {
+  grid-area: C;
+}

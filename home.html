@@ -5,8 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Criar Sala - Perguntas Anônimas</title>
+  
   <link rel="stylesheet" href="./Styles/global.css">
   <link rel="stylesheet" href="./Styles/home.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
@@ -18,7 +20,10 @@
     <img src="./assets/logo.svg" alt="Logo da Aplicação"/>
   </header>
 
-  <div id="bg"><img src="./assets/home-bg-img.svg" alt=""></div>
+  <div id="bg">
+    <div class="ball top"></div>
+    <div class="ball bottom"></div>
+  </div>
 
   <main>
     <div class="wrapper">
@@ -29,7 +34,7 @@
             <label class="sr-only" for="room-id">Código da sala</label>
             <input type="number" id="room-id" placeholder="Código da sala">
           </form>
-            <button>
+            <button class="button">
               <img src="./assets/log-in 1.svg" alt="entrar na sala" class="enter-icon"/> Entrar na Sala
             </button>
           
@@ -43,7 +48,7 @@
 
         <section>
           <h2>Crie sua própria sala de forma fácil</h2>
-          <a class="button" href="./create-room.html">
+          <a class="outline buttonsec" href="./create-room.html">
             <svg class="blue-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_10902_601)">
               <path d="M14.1668 17.5V15.8333C14.1668 14.9493 13.8156 14.1014 13.1905 13.4763C12.5654 12.8512 11.7176 12.5 10.8335 12.5H4.16683C3.28277 12.5 2.43493 12.8512 1.80981 13.4763C1.18469 14.1014 0.833496 14.9493 0.833496 15.8333V17.5" stroke="url(#paint0_linear_10902_601)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
