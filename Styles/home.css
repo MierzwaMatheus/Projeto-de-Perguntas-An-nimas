@@ -1,0 +1,50 @@
+@import url(./global.css);
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  grid-template-rows: 11.4rem 1fr;
+    grid-template-areas: 
+      'A A'
+      'B C'; 
+}
+
+header{
+  grid-area: A;
+}
+
+#bg img {
+  grid-area: B;
+
+  width: 49.6rem;
+}
+
+main{
+  grid-area: C;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .container {
+  align-self: center;
+  width: min(36.6rem 100%);
+}
+
+main h2{
+  margin-bottom: 2.4rem;
+}
+
+input {
+  border: .2rem solid var(--grey-blue);
+  border-radius: .8rem;
+  padding: 1.6rem;
+  height: 4.8rem;
+  
+}
+
+input, button, .button {
+  margin-bottom: 1.8rem;
+  width: 100%;
+}
