@@ -81,38 +81,38 @@
 
 /*=======Perguntas======*/
 #questions {
-  display: grid;
   padding-inline: 16rem;
 }
 
-#questions .question {
+#questions .question-content {
   height: 13.6rem;
   background-color: var(--light-blue);
   border-radius: 0  .8rem .8rem .8rem;
-  
+  margin-bottom: .8rem;
+  padding: 2.4rem;
 }
 
-#questions .question-content {
-  display: grid;
-  grid-template-rows: auto 25%;
-  grid-template-columns: auto 10rem;
-    grid-template-areas: 
-    'A B'
-    'C D';
+#questions .user-question {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
 }
 
-#questions .col-a {
-  grid-area: A;
+#questions .buttons {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  justify-content: flex-end;
+  padding-top: 2rem;
 }
 
-#questions .col-b {
-  grid-area: B;
+#questions button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--light-blue);
+  color: var(--grey)
 }
 
-#questions .col-c {
-  grid-area: C;
-}
 
-#questions .col-d {
-  grid-area: C;
-}
+

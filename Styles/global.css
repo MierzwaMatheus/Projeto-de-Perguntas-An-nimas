@@ -70,6 +70,10 @@ input, .buttonsec, .button {
   height: 5rem;
 }
 
+button {
+  cursor: pointer;
+}
+
 .buttonsec, .button {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
