@@ -128,3 +128,54 @@
 #questions .question-content.read svg circle {
   fill: var(--grey-blue);
 }
+
+/*=======Modal======*/
+#modal-box {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+
+  background: var(--overlay);
+}
+
+#modal-box .modal {
+  width: min(90%, 59rem);
+  background-color: var(--bg);
+  margin: auto;
+
+  border-radius: .8rem;
+
+  padding-block: 6.4rem;
+  padding-inline: 8.6rem;
+
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+#modal-box .modal p {
+  padding-top: 1.2rem;
+  padding-bottom: 2.4rem;
+  font-weight: 400;
+  color: var(--grey);
+}
+
+#modal-box .modal form input {
+  background-color: none;
+  border: .2rem solid var(--blue);
+
+  padding: 1.3rem 1.6rem;
+
+  margin-bottom: 4rem;
+
+  outline: none;
+
+  width: min(30.2rem, 70%);
+}
+
+#modal-box .modal .buttons {
+  display: flex;
+  justify-content: center;
+}
