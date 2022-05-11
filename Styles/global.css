@@ -24,6 +24,7 @@ html {
   --grey-blue: hsl(217, 31%, 72%);
   --grey-medium: hsl(216, 21%, 86%);
   --grey-light: hsl(215, 30%, 92%);
+  --grey-back: hsl(223, 20%, 93%);
 
   --hover-blue: hsl(216, 100%, 67%);
   --hover-red: hsl(350, 79%, 61%);

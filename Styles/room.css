@@ -94,8 +94,15 @@
 
 #questions .user-question {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 1.6rem;
+}
+
+#questions p {
+  word-break: break-word;
+  display: flex;
+  align-items:center;
+  min-height: 5.5rem;
 }
 
 #questions .buttons {
@@ -114,5 +121,10 @@
   color: var(--grey)
 }
 
+#questions .question-content.read {
+  background-color: var(--grey-back);
+}
 
-
+#questions .question-content.read svg circle {
+  fill: var(--grey-blue);
+}
