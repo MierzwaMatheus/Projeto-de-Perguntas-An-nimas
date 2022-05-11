@@ -1,0 +1,24 @@
+{
+  "name": "projeto-de-perguntas-an-nimas",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuarios direcionadas ao dono da pagina",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MierzwaMatheus/Projeto-de-Perguntas-An-nimas.git"
+  },
+  "keywords": [],
+  "author": "Matheus Mierzwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MierzwaMatheus/Projeto-de-Perguntas-An-nimas/issues"
+  },
+  "homepage": "https://github.com/MierzwaMatheus/Projeto-de-Perguntas-An-nimas#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
