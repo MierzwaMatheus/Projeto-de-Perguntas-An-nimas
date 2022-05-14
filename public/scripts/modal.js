@@ -3,7 +3,7 @@ export default function Modal(){
   const modalBox = document.querySelector('.modal-box')
   const modal = document.querySelector('.modal')
 
-  const cancelButton = document.querySelector('.button-grey.cancel')
+  const cancelButton = document.querySelector('.button.cancel')
   cancelButton.addEventListener("click", close)
 
   function open(){

@@ -113,12 +113,13 @@
   padding-top: 2rem;
 }
 
-#questions button {
+#questions a {
   display: flex;
   align-items: center;
   gap: 1rem;
   background-color: var(--light-blue);
-  color: var(--grey)
+  color: var(--grey);
+  cursor: pointer;
 }
 
 #questions .question-content.read {
@@ -145,7 +146,7 @@
 }
 
 .modal-box .modal {
-  width: min(90%, 59rem);
+  width: min(90%, 61rem);
   background-color: var(--bg);
   margin: auto;
 
